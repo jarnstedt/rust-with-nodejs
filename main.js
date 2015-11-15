@@ -10,7 +10,7 @@ console.time('rust-timer');
 var FFI = require('ffi');
 
 var lib = FFI.Library('./target/release/libmylib.so', {
-    fibonacci: ['int', ['int']]
+    fibonacci: ['uint32', ['uint32']]
 });
 
 result = lib.fibonacci(n);
