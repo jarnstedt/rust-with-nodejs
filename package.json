@@ -1,0 +1,13 @@
+{
+  "name": "embed",
+  "version": "1.0.0",
+  "main": "main.js",
+  "dependencies": {
+    "ffi": "^2.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "cargo build --release --verbose"
+  }
+}
